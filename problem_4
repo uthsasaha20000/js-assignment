@@ -1,0 +1,5 @@
+function password(obj)
+{
+   str=obj.siteName+"#"+obj.name+"@"+obj.birthYear;
+   return str;
+}

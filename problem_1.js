@@ -15,5 +15,15 @@ function calculateMoney(ticketSale)
    
 
 }
-a=calculateMoney(-10);
-console.log(a);
+
+
+
+
+
+
+
+
+
+
+
+    

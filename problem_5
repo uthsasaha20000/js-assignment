@@ -1,0 +1,22 @@
+function monthlySavings(arr,living_cost)
+{
+    var total=0;
+  for(payment of arr)
+  {
+    
+    if(payment>=3000)
+    {
+        payment=payment-(payment*0.2)
+    }
+    total=payment+total;
+  }
+  total=total-living_cost;
+  if(total>=0)
+  {
+    return total;
+  }
+  else{
+  return "earn more";
+  }
+}
+
